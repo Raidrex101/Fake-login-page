@@ -1,0 +1,51 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+.form {
+    max-width: fit-content;
+    margin: 200px auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagen {
+    padding: 0px 50px 0px 50px;
+    max-width: 200px;
+    max-height: 250px;
+}
+
+.button-iniciar-sesion {
+    max-width: fit-content;
+    cursor: pointer;
+    float: inline-left;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.button-crear-cuenta {
+    max-width: fit-content;
+    cursor: pointer;
+    float: inline-end;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.acceso {
+    max-width: fit-content;
+    cursor: pointer;
+
+}
+
+.Recuperar {
+    float: inline-end;
+}
