@@ -3,13 +3,15 @@ h2 {
 }
 
 body {
-    background-color: cadetblue;
+    background-image:url(../imagenes/body.jpg);
+    background-size:cover;
+    
 }
 
 .form {
     max-width: fit-content;
     margin: 200px auto;
-    background-color: aliceblue;
+    background-color: none;
     padding: 20px;
     border-radius: 8px;
     display: flex;
@@ -43,6 +45,7 @@ body {
 .acceso {
     max-width: fit-content;
     cursor: pointer;
+    border-radius: 8px;
 
 }
 
